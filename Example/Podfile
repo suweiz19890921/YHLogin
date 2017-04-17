@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'YHLogin_Example' do
+  pod 'YHLogin', :path => '../'
+
+  target 'YHLogin_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end

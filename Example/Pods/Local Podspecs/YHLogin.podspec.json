@@ -1,0 +1,22 @@
+{
+  "name": "YHLogin",
+  "version": "0.1.0",
+  "summary": "A short description of YHLogin.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/617907240@qq.com/YHLogin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "617907240@qq.com": "suwei@solot.com"
+  },
+  "source": {
+    "git": "https://github.com/617907240@qq.com/YHLogin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YHLogin/Classes/**/*"
+}

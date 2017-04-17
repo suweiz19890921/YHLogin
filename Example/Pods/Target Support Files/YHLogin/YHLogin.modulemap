@@ -1,0 +1,6 @@
+framework module YHLogin {
+  umbrella header "YHLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

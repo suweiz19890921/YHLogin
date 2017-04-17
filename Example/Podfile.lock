@@ -1,0 +1,22 @@
+PODS:
+  - Expecta (1.0.5)
+  - Specta (1.0.6)
+  - YHLogin (0.1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Specta
+  - YHLogin (from `../`)
+
+EXTERNAL SOURCES:
+  YHLogin:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+  YHLogin: 73b9c5804b6f0461f5e13e1cd6e39a9ff01bd195
+
+PODFILE CHECKSUM: 37b561dfe1142bab3452518de351c5557078f842
+
+COCOAPODS: 1.1.1

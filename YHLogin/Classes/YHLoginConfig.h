@@ -67,4 +67,8 @@ YHAuthStatu;
 + (void)loginParamsConfig;
     
 + (void)getUserInfoWithType:(YHShareType)shareType callBack:(void(^)(YHAuthStatu statu))callBack;
+    
++ (void)cancelAuthWithType:(YHShareType)shareType;
+
++ (BOOL)hasAuthWithType:(YHShareType)shareType;
 @end

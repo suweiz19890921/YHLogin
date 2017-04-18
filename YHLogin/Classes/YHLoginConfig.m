@@ -25,6 +25,15 @@
     [ShareSDK connectFacebookWithAppKey:YHFACEBOOKAPPID appSecret:YHFACEBOOKSECRET];
 
 }
+
++ (void)cancelAuthWithType:(YHShareType)shareType {
+    [ShareSDK cancelAuthWithType:shareType];
+}
+
++ (BOOL)hasAuthWithType:(YHShareType)shareType {
+    BOOL isAuth = [ShareSDK hasAuthorizedWithType:shareType];
+    return isAuth;
+}
     
 + (void)getUserInfoWithType:(YHShareType)shareType callBack:(void (^)(YHAuthStatu))callBack {
     [self authWithType:shareType callBack:callBack];

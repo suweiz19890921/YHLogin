@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
+  s.libraries = 'icucore','z.1.2.5','stdc++'
   s.source_files = 'YHLogin/Classes/**/*'
   
   # s.resource_bundles = {
@@ -37,24 +37,13 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  # 公共库(必须)
-  s.dependency 'MOBFoundation'
-  # 主模块(必须)
-  s.dependency 'ShareSDK2'
-  # UI模块(含所有UI样式,可选)
-  s.dependency 'ShareSDK2/UI'
-  # iOS竖版默认分享UI(可选)
-  s.dependency 'ShareSDK2/UI/Flat'
-  # iPad版默认分享视图(可选)
-  s.dependency 'ShareSDK2/UI/iPadDefault'
-  # iPad版简单分享视图(可选)
-  s.dependency 'ShareSDK2/UI/iPadSimple'
-  # iPhone版默认分享视图(可选)
-  s.dependency 'ShareSDK2/UI/iPhoneDefault'
-  # iPhone版简单分享视图(可选)
-  s.dependency 'ShareSDK2/UI/iPhoneSimple'
-  # iPhone版应用推荐视图(可选)
-  s.dependency 'ShareSDK2/UI/iPhoneAppRecommend'
+   s.frameworks = 'UIKit', 'MapKit'
+   s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'MOBFoundation'
+   s.dependency 'ShareSDK2'
+   s.dependency 'ShareSDK2/Connection/WeChat'
+   s.dependency 'ShareSDK2/Connection/WeChat'
+   s.dependency 'ShareSDK2/Connection/Facebook'
+   s.dependency 'ShareSDK2/Connection/QQ'
+
 end
